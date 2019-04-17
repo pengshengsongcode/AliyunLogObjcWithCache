@@ -1,0 +1,16 @@
+PODS:
+  - AliyunLogObjcWithCache (0.1.0)
+
+DEPENDENCIES:
+  - AliyunLogObjcWithCache (from `../`)
+
+EXTERNAL SOURCES:
+  AliyunLogObjcWithCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AliyunLogObjcWithCache: 52699e9d0934786dfe14b134bf2bb6ae7256d1ee
+
+PODFILE CHECKSUM: efbd07187a0dc545e731ef6053daa95899a27a57
+
+COCOAPODS: 1.5.3

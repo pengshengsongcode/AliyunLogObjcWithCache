@@ -1,0 +1,6 @@
+framework module AliyunLogObjcWithCache {
+  umbrella header "AliyunLogObjcWithCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

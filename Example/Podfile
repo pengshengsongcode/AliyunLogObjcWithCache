@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AliyunLogObjcWithCache_Tests' do
+  pod 'AliyunLogObjcWithCache', :path => '../'
+  
+  
+end

@@ -1,0 +1,22 @@
+{
+  "name": "AliyunLogObjcWithCache",
+  "version": "0.1.0",
+  "summary": "A short description of AliyunLogObjcWithCache.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/彭盛凇/AliyunLogObjcWithCache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "彭盛凇": "shengsongpeng@huangbaoche.com"
+  },
+  "source": {
+    "git": "https://github.com/彭盛凇/AliyunLogObjcWithCache.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AliyunLogObjcWithCache/Classes/**/*"
+}

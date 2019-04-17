@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168382725839556339274BDD003D7A2F /* AliyunLogObjcWithCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AADBA0CFB9D2CF9E9D58C1ACE434F60B /* AliyunLogObjcWithCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C589B5F641651FDA560A4CE6B4D06E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		76D69A069F4CE971E4CFCC4616B17BFE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEAFEA0C9D079222E707EAECFBEFF9 /* ReplaceMe.m */; };
+		C8790C87118459E6891B53B68842123B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CCA4C3711AAE946F7E2EF3A2C3E13966 /* Pods-AliyunLogObjcWithCache_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04745FC1B19DED0FAB0404F603B4E92 /* Pods-AliyunLogObjcWithCache_Tests-dummy.m */; };
+		F4A7BF143375045CEA0DB3FBF9D98A64 /* Pods-AliyunLogObjcWithCache_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BD7E73C40C377BC554A53ACED885AC /* Pods-AliyunLogObjcWithCache_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0D0FC7CA2869D5FF83A74D002AA82A /* AliyunLogObjcWithCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52557B594D0DA6E36A9BFF2517E4C069 /* AliyunLogObjcWithCache-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A2973444F85501FAEAD0DFCC7762E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3588E84A544AD000FD445173BD2D72B8;
+			remoteInfo = AliyunLogObjcWithCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23E0DCD151EC260F5977786242FC7621 /* Pods-AliyunLogObjcWithCache_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunLogObjcWithCache_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		39A455A9B3190835E40F6E43986AEF43 /* AliyunLogObjcWithCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AliyunLogObjcWithCache.framework; path = AliyunLogObjcWithCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A33FDFD99B685CDFA09B29164B5F28 /* Pods-AliyunLogObjcWithCache_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunLogObjcWithCache_Tests-resources.sh"; sourceTree = "<group>"; };
+		52557B594D0DA6E36A9BFF2517E4C069 /* AliyunLogObjcWithCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunLogObjcWithCache-dummy.m"; sourceTree = "<group>"; };
+		5414D4E35FC0DDA2E779BEB22528627B /* Pods-AliyunLogObjcWithCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunLogObjcWithCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69353623239AD2B0883F6945F7E0F16C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDEAFEA0C9D079222E707EAECFBEFF9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AliyunLogObjcWithCache/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		83FC024268C50BA09AC1C78AFE592D72 /* AliyunLogObjcWithCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunLogObjcWithCache-prefix.pch"; sourceTree = "<group>"; };
+		8607E28662878BD5C7770A43366CA3B9 /* Pods-AliyunLogObjcWithCache_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunLogObjcWithCache_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88EAFE52C09131B9CEEE4616961EF39D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		938E5FF59471F354532DB99AC7B23600 /* AliyunLogObjcWithCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AliyunLogObjcWithCache.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98E4DFF26B65864B7CE7585CD61BF8AB /* Pods_AliyunLogObjcWithCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliyunLogObjcWithCache_Tests.framework; path = "Pods-AliyunLogObjcWithCache_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFCBA3EE8AB5D1C55A4A01202EFE475 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A1A8EBF4C65254FDCA44DD357FDF23E6 /* AliyunLogObjcWithCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunLogObjcWithCache.xcconfig; sourceTree = "<group>"; };
+		AADBA0CFB9D2CF9E9D58C1ACE434F60B /* AliyunLogObjcWithCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunLogObjcWithCache-umbrella.h"; sourceTree = "<group>"; };
+		C54DB0CE1D20F903153F1D889E6918CE /* Pods-AliyunLogObjcWithCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunLogObjcWithCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D04745FC1B19DED0FAB0404F603B4E92 /* Pods-AliyunLogObjcWithCache_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunLogObjcWithCache_Tests-dummy.m"; sourceTree = "<group>"; };
+		D4BFC5D982B2A82E16ABC0D1815512F8 /* Pods-AliyunLogObjcWithCache_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliyunLogObjcWithCache_Tests.modulemap"; sourceTree = "<group>"; };
+		D5BD7E73C40C377BC554A53ACED885AC /* Pods-AliyunLogObjcWithCache_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliyunLogObjcWithCache_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1F69924489A725F254F0CA20B64D150 /* Pods-AliyunLogObjcWithCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunLogObjcWithCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB185DAEB0468F81B62F778C91747621 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7C6A017682AC10C9B5266D68F9F059 /* AliyunLogObjcWithCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AliyunLogObjcWithCache.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A721F7825F0093288F4366AEFF210FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C589B5F641651FDA560A4CE6B4D06E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F158C5A0669BCEFE32E91CA711BBE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8790C87118459E6891B53B68842123B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F01CEBB062BA91D5398F3B6D6893318 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09DFC852BFECFB2731A5F43A2390FC8 /* Pods-AliyunLogObjcWithCache_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		13A9A93CFAC4D581AFB9CA08F21610F0 /* AliyunLogObjcWithCache */ = {
+			isa = PBXGroup;
+			children = (
+				7BDEAFEA0C9D079222E707EAECFBEFF9 /* ReplaceMe.m */,
+				47BB7633838F411B779BF1E720C1791F /* Pod */,
+				C83DE0030895700A0973646867926190 /* Support Files */,
+			);
+			name = AliyunLogObjcWithCache;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		47BB7633838F411B779BF1E720C1791F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC7C6A017682AC10C9B5266D68F9F059 /* AliyunLogObjcWithCache.podspec */,
+				88EAFE52C09131B9CEEE4616961EF39D /* LICENSE */,
+				9AFCBA3EE8AB5D1C55A4A01202EFE475 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		502EEA3B9F94BE8CD613D1FC04D76CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A455A9B3190835E40F6E43986AEF43 /* AliyunLogObjcWithCache.framework */,
+				98E4DFF26B65864B7CE7585CD61BF8AB /* Pods_AliyunLogObjcWithCache_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF0110F31F0D95D69AD91F25238E726 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13A9A93CFAC4D581AFB9CA08F21610F0 /* AliyunLogObjcWithCache */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5CF0110F31F0D95D69AD91F25238E726 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				502EEA3B9F94BE8CD613D1FC04D76CA1 /* Products */,
+				0F01CEBB062BA91D5398F3B6D6893318 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C83DE0030895700A0973646867926190 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				938E5FF59471F354532DB99AC7B23600 /* AliyunLogObjcWithCache.modulemap */,
+				A1A8EBF4C65254FDCA44DD357FDF23E6 /* AliyunLogObjcWithCache.xcconfig */,
+				52557B594D0DA6E36A9BFF2517E4C069 /* AliyunLogObjcWithCache-dummy.m */,
+				83FC024268C50BA09AC1C78AFE592D72 /* AliyunLogObjcWithCache-prefix.pch */,
+				AADBA0CFB9D2CF9E9D58C1ACE434F60B /* AliyunLogObjcWithCache-umbrella.h */,
+				69353623239AD2B0883F6945F7E0F16C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AliyunLogObjcWithCache";
+			sourceTree = "<group>";
+		};
+		D09DFC852BFECFB2731A5F43A2390FC8 /* Pods-AliyunLogObjcWithCache_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB185DAEB0468F81B62F778C91747621 /* Info.plist */,
+				D4BFC5D982B2A82E16ABC0D1815512F8 /* Pods-AliyunLogObjcWithCache_Tests.modulemap */,
+				8607E28662878BD5C7770A43366CA3B9 /* Pods-AliyunLogObjcWithCache_Tests-acknowledgements.markdown */,
+				E1F69924489A725F254F0CA20B64D150 /* Pods-AliyunLogObjcWithCache_Tests-acknowledgements.plist */,
+				D04745FC1B19DED0FAB0404F603B4E92 /* Pods-AliyunLogObjcWithCache_Tests-dummy.m */,
+				23E0DCD151EC260F5977786242FC7621 /* Pods-AliyunLogObjcWithCache_Tests-frameworks.sh */,
+				44A33FDFD99B685CDFA09B29164B5F28 /* Pods-AliyunLogObjcWithCache_Tests-resources.sh */,
+				D5BD7E73C40C377BC554A53ACED885AC /* Pods-AliyunLogObjcWithCache_Tests-umbrella.h */,
+				5414D4E35FC0DDA2E779BEB22528627B /* Pods-AliyunLogObjcWithCache_Tests.debug.xcconfig */,
+				C54DB0CE1D20F903153F1D889E6918CE /* Pods-AliyunLogObjcWithCache_Tests.release.xcconfig */,
+			);
+			name = "Pods-AliyunLogObjcWithCache_Tests";
+			path = "Target Support Files/Pods-AliyunLogObjcWithCache_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D359C886CFA90AF9C20C334F54D5EA26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168382725839556339274BDD003D7A2F /* AliyunLogObjcWithCache-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB11CA37ED262C623EC3316181A41F2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A7BF143375045CEA0DB3FBF9D98A64 /* Pods-AliyunLogObjcWithCache_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3588E84A544AD000FD445173BD2D72B8 /* AliyunLogObjcWithCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEA45EC30D86D57838B7D61D2222CE4 /* Build configuration list for PBXNativeTarget "AliyunLogObjcWithCache" */;
+			buildPhases = (
+				D359C886CFA90AF9C20C334F54D5EA26 /* Headers */,
+				56A7BCB1947AC71F522E94337915761A /* Sources */,
+				4A721F7825F0093288F4366AEFF210FD /* Frameworks */,
+				15A0846C1DE582E1E55CE1E73E759187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliyunLogObjcWithCache;
+			productName = AliyunLogObjcWithCache;
+			productReference = 39A455A9B3190835E40F6E43986AEF43 /* AliyunLogObjcWithCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		965948656C6D7E64231135CA537F6105 /* Pods-AliyunLogObjcWithCache_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F962794D513A203B4FE5A4C7B46AC8B8 /* Build configuration list for PBXNativeTarget "Pods-AliyunLogObjcWithCache_Tests" */;
+			buildPhases = (
+				EB11CA37ED262C623EC3316181A41F2E /* Headers */,
+				A54C7022ADDFC22ACF463C9827084EF7 /* Sources */,
+				7F158C5A0669BCEFE32E91CA711BBE8F /* Frameworks */,
+				57C16C92107390ED00E6B717E6D87C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A326BE7BF836A2554227692C47705CB /* PBXTargetDependency */,
+			);
+			name = "Pods-AliyunLogObjcWithCache_Tests";
+			productName = "Pods-AliyunLogObjcWithCache_Tests";
+			productReference = 98E4DFF26B65864B7CE7585CD61BF8AB /* Pods_AliyunLogObjcWithCache_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 502EEA3B9F94BE8CD613D1FC04D76CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3588E84A544AD000FD445173BD2D72B8 /* AliyunLogObjcWithCache */,
+				965948656C6D7E64231135CA537F6105 /* Pods-AliyunLogObjcWithCache_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A0846C1DE582E1E55CE1E73E759187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C16C92107390ED00E6B717E6D87C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56A7BCB1947AC71F522E94337915761A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0D0FC7CA2869D5FF83A74D002AA82A /* AliyunLogObjcWithCache-dummy.m in Sources */,
+				76D69A069F4CE971E4CFCC4616B17BFE /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54C7022ADDFC22ACF463C9827084EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA4C3711AAE946F7E2EF3A2C3E13966 /* Pods-AliyunLogObjcWithCache_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A326BE7BF836A2554227692C47705CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunLogObjcWithCache;
+			target = 3588E84A544AD000FD445173BD2D72B8 /* AliyunLogObjcWithCache */;
+			targetProxy = 5A2973444F85501FAEAD0DFCC7762E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CAA266AB0F0A5215E3DCA3462AFCE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5414D4E35FC0DDA2E779BEB22528627B /* Pods-AliyunLogObjcWithCache_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliyunLogObjcWithCache_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliyunLogObjcWithCache_Tests/Pods-AliyunLogObjcWithCache_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		66C390B0AE5C4E9BA2A53CE491A0359E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A8EBF4C65254FDCA44DD357FDF23E6 /* AliyunLogObjcWithCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunLogObjcWithCache/AliyunLogObjcWithCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliyunLogObjcWithCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliyunLogObjcWithCache/AliyunLogObjcWithCache.modulemap";
+				PRODUCT_MODULE_NAME = AliyunLogObjcWithCache;
+				PRODUCT_NAME = AliyunLogObjcWithCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEED0783518417FFC056B5110A988047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54DB0CE1D20F903153F1D889E6918CE /* Pods-AliyunLogObjcWithCache_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliyunLogObjcWithCache_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliyunLogObjcWithCache_Tests/Pods-AliyunLogObjcWithCache_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDB68212BC1C7764808D585E3918D07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A8EBF4C65254FDCA44DD357FDF23E6 /* AliyunLogObjcWithCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunLogObjcWithCache/AliyunLogObjcWithCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliyunLogObjcWithCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliyunLogObjcWithCache/AliyunLogObjcWithCache.modulemap";
+				PRODUCT_MODULE_NAME = AliyunLogObjcWithCache;
+				PRODUCT_NAME = AliyunLogObjcWithCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEA45EC30D86D57838B7D61D2222CE4 /* Build configuration list for PBXNativeTarget "AliyunLogObjcWithCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB68212BC1C7764808D585E3918D07A /* Debug */,
+				66C390B0AE5C4E9BA2A53CE491A0359E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F962794D513A203B4FE5A4C7B46AC8B8 /* Build configuration list for PBXNativeTarget "Pods-AliyunLogObjcWithCache_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAA266AB0F0A5215E3DCA3462AFCE37 /* Debug */,
+				AEED0783518417FFC056B5110A988047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,12 +1,29 @@
 # AliyunLogObjcWithCache
-阿里云日志OC版本，带FMDB存储，断点续传
 
-阿里云日志swift版本（官方）：https://github.com/aliyun/aliyun-log-ios-sdk
+[![CI Status](https://img.shields.io/travis/彭盛凇/AliyunLogObjcWithCache.svg?style=flat)](https://travis-ci.org/彭盛凇/AliyunLogObjcWithCache)
+[![Version](https://img.shields.io/cocoapods/v/AliyunLogObjcWithCache.svg?style=flat)](https://cocoapods.org/pods/AliyunLogObjcWithCache)
+[![License](https://img.shields.io/cocoapods/l/AliyunLogObjcWithCache.svg?style=flat)](https://cocoapods.org/pods/AliyunLogObjcWithCache)
+[![Platform](https://img.shields.io/cocoapods/p/AliyunLogObjcWithCache.svg?style=flat)](https://cocoapods.org/pods/AliyunLogObjcWithCache)
 
-阿里云日志OC版本（无缓存）：https://github.com/lujiajing1126/AliyunLogObjc
+## Example
 
-阿里云日志官网：https://www.aliyun.com/product/sls/
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-本文是在 阿里云日志OC版本（无缓存）：https://github.com/lujiajing1126/AliyunLogObjc  基础上封装
+## Requirements
 
-后期有时间会出pod公有库
+## Installation
+
+AliyunLogObjcWithCache is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'AliyunLogObjcWithCache'
+```
+
+## Author
+
+彭盛凇, shengsongpeng@huangbaoche.com
+
+## License
+
+AliyunLogObjcWithCache is available under the MIT license. See the LICENSE file for more info.
