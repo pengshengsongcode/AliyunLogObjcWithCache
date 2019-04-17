@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AliyunLogObjcWithCache'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '阿里云日志OC版本，带FMDB存储，断点续传'
 
 # This description is used to generate tags and improve search results.

@@ -98,19 +98,19 @@
 		5903562E5B274645BC05F946AF704394 /* Const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Const.h; path = AliyunLogObjcWithCache/Classes/AliyunLogObjc/Const.h; sourceTree = "<group>"; };
 		5D0D1F3CDB0DA02478997C9461D8A546 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		6404F059D7BE8AFCA2D2626AA1ACDD9F /* JSONSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONSerializer.m; path = AliyunLogObjcWithCache/Classes/AliyunLogObjc/JSONSerializer.m; sourceTree = "<group>"; };
-		646B2C8CBAD0D80FC7120C7642D034A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		646B2C8CBAD0D80FC7120C7642D034A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		6E623A75EA31D29A39AD4D88E3520A5A /* Serializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Serializer.h; path = AliyunLogObjcWithCache/Classes/AliyunLogObjc/Serializer.h; sourceTree = "<group>"; };
 		7087B4CE1CC6C4CE6D26FC6F6B49BA4B /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		7AB6F6730C4200DB64E4DF05FFB36660 /* AliyunLogObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliyunLogObjc.h; path = AliyunLogObjcWithCache/Classes/AliyunLogObjc/AliyunLogObjc.h; sourceTree = "<group>"; };
 		7BBB9986795B3922A109D194488956CA /* DBManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = AliyunLogObjcWithCache/Classes/AliyunLogObjc/DBManager.m; sourceTree = "<group>"; };
-		8551E30F103C2CF10825189BD3B8BAAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8551E30F103C2CF10825189BD3B8BAAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8607E28662878BD5C7770A43366CA3B9 /* Pods-AliyunLogObjcWithCache_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunLogObjcWithCache_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8D47C70411046686CACDD9BCA7563FB2 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D47C70411046686CACDD9BCA7563FB2 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		91ED9BCC9D2841D0CD4D8FB8C60980BA /* AliyunLogObjcWithCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AliyunLogObjcWithCache.framework; path = AliyunLogObjcWithCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91ED9BCC9D2841D0CD4D8FB8C60980BA /* AliyunLogObjcWithCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AliyunLogObjcWithCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		959913375A3F70B206872418FA041D16 /* NSData+GZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+GZIP.m"; path = "AliyunLogObjcWithCache/Classes/AliyunLogObjc/NSData+GZIP.m"; sourceTree = "<group>"; };
 		9A2731D80D46E6AC3E26D5F8F2B25705 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = AliyunLogObjcWithCache/Classes/AliyunLogObjc/Reachability.h; sourceTree = "<group>"; };
 		A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		A7A28A5218F43535FEBD24AA5091B8D7 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		B3D0CF083AF118F0892162FA91585ABC /* NSData+MD5Digest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MD5Digest.m"; path = "AliyunLogObjcWithCache/Classes/AliyunLogObjc/NSData+MD5Digest.m"; sourceTree = "<group>"; };
 		B3D7A935294889188EDCE0C28B936DE1 /* NSString+Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Crypto.h"; path = "AliyunLogObjcWithCache/Classes/AliyunLogObjc/NSString+Crypto.h"; sourceTree = "<group>"; };
-		B8D5BAC73AF886F7DF1C4A01951917C4 /* Pods_AliyunLogObjcWithCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliyunLogObjcWithCache_Tests.framework; path = "Pods-AliyunLogObjcWithCache_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D5BAC73AF886F7DF1C4A01951917C4 /* Pods_AliyunLogObjcWithCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunLogObjcWithCache_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF6D80EA42D78111EF6AA9B4FABB02F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03D3F07D725FD057578EE8F03501939 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		E1F69924489A725F254F0CA20B64D150 /* Pods-AliyunLogObjcWithCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunLogObjcWithCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E23639325EA08E6828956E55A7387130 /* AliyunLogObjcWithCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunLogObjcWithCache-umbrella.h"; sourceTree = "<group>"; };
 		E44D3DE3ED28B3476D775A233957D87B /* AliyunLogObjcWithCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AliyunLogObjcWithCache.modulemap; sourceTree = "<group>"; };
-		EA2753CE61771ED0698695C228A12354 /* AliyunLogObjcWithCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AliyunLogObjcWithCache.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EA2753CE61771ED0698695C228A12354 /* AliyunLogObjcWithCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AliyunLogObjcWithCache.podspec; sourceTree = "<group>"; };
 		EB185DAEB0468F81B62F778C91747621 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED35CB22A5273D11BA8F07712460612B /* AliyunLogObjcWithCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunLogObjcWithCache-dummy.m"; sourceTree = "<group>"; };
 		ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
@@ -245,7 +245,6 @@
 				F6DE655E75ADFE1AA964C216FFC0DF35 /* standard */,
 				0D1B96F27E7A774FA1E2F04CD89E6885 /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
