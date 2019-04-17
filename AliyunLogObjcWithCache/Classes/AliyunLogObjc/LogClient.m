@@ -23,6 +23,16 @@
 
 @implementation LogClient
 
+#ifdef DEBUG
+
+#define DLog( s, ... ) NSLog( @"< %@:(%d) > %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+
+#else
+
+#define DLog( s, ... )
+
+#endif
+
 - (id)initWithApp:(NSString*) endPoint accessKeyID:(NSString *)ak accessKeySecret: (NSString *)as projectName: (NSString *)name serializeType: (AliSLSSerializer) sType {
     if(self = [super init]) {
         if([[endPoint lowercaseString] hasPrefix:@"http://"]) {

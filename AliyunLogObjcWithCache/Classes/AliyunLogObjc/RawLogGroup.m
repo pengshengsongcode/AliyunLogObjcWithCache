@@ -9,7 +9,6 @@
 #import "RawLogGroup.h"
 #import "RawLog.h"
 #import "JSONSerializer.h"
-#import "NSDictionary+HBCExts.h"
 
 @implementation RawLogGroup
 
@@ -57,20 +56,34 @@
 - (NSString *)jsonPachage {
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
 
-    [dic hbc_setObject:_mTopic forKey:@"__topic__"];
-    [dic hbc_setObject:_mSource forKey:@"__source__"];
+    [dic setObject:_mTopic forKey:@"__topic__"];
+    [dic setObject:_mSource forKey:@"__source__"];
     
     NSMutableArray *arr = [NSMutableArray array];
     
     [_rawLogs enumerateObjectsUsingBlock:^(RawLog * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
        
-        [arr hbc_addObject:[obj GetContent]];
+        [arr addObject:[obj GetContent]];
         
     }];
     
-    [dic hbc_setObject:arr forKey:@"__logs__"];
+    [dic setObject:arr forKey:@"__logs__"];
     
-    return [dic hbc_JSONString];
+    return [self hbc_JSONString:dic];
+}
+
+- (NSString *)hbc_JSONString:(NSDictionary *)dic {
+    if ([NSJSONSerialization isValidJSONObject:dic]) {
+        NSError *error;
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&error];
+        if (error != nil) {
+            //            DLog(@"Json Serialize error:%@,jsonObject:%@",error,self);
+            return nil;
+        }
+        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        return jsonString;
+    }
+    return nil;
 }
 
 @end

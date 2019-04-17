@@ -57,7 +57,7 @@
     
     dispatch_source_set_timer(self.gcdTimer, DISPATCH_TIME_NOW, self.mTimeInterval*NSEC_PER_SEC, 0);
     
-    WSELF
+    __weak typeof(self)weakSelf = self;
     
     dispatch_source_set_event_handler(self.gcdTimer, ^{
        
@@ -67,6 +67,19 @@
     
     dispatch_resume(self.gcdTimer);
     
+}
+
+- (id)JSONObject:(NSString *)str {
+    NSError *error;
+    NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
+    id jsonObject = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
+    
+    if (error != nil) {
+//        DLog(@"json unSerializ error:%@,json:%@",error,self);
+        return nil;
+    }
+    
+    return jsonObject;
 }
 
 - (void)postLogsFromeDB {
@@ -95,11 +108,11 @@
             NSString *logstore = [record valueForKey:@"logstore"];
             NSString *msg = [record valueForKey:@"log"];
             
-            NSDictionary *logDic = [msg hbc_JSONObject];
+            NSDictionary *logDic = [self JSONObject:msg];
             
-            NSString *topic = [logDic hbc_stringForKey:@"__topic__"];
-            NSString *source = [logDic hbc_stringForKey:@"__source__"];
-            NSArray *realLogs = [logDic hbc_arrayForKey:@"__logs__"];
+            NSString *topic = [logDic objectForKey:@"__topic__"];
+            NSString *source = [logDic objectForKey:@"__source__"];
+            NSArray *realLogs = [logDic objectForKey:@"__logs__"];
             
             [realLogs enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
                 

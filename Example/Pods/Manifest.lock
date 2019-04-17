@@ -1,15 +1,24 @@
 PODS:
-  - AliyunLogObjcWithCache (0.1.0)
+  - AliyunLogObjcWithCache (0.1.0):
+    - FMDB (= 2.7.5)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
 
 DEPENDENCIES:
   - AliyunLogObjcWithCache (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
 
 EXTERNAL SOURCES:
   AliyunLogObjcWithCache:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AliyunLogObjcWithCache: 52699e9d0934786dfe14b134bf2bb6ae7256d1ee
+  AliyunLogObjcWithCache: 22e5e1ea8d79b71c249d03290d5bc3f814ebd0b9
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
 
 PODFILE CHECKSUM: efbd07187a0dc545e731ef6053daa95899a27a57
 

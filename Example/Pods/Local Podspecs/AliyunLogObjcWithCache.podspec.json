@@ -1,9 +1,9 @@
 {
   "name": "AliyunLogObjcWithCache",
   "version": "0.1.0",
-  "summary": "A short description of AliyunLogObjcWithCache.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/彭盛凇/AliyunLogObjcWithCache",
+  "summary": "阿里云日志OC版本，带FMDB存储，断点续传",
+  "description": "TODO: 阿里云日志OC版本，带FMDB存储，断点续传",
+  "homepage": "https://github.com/pengshengsongcode/AliyunLogObjcWithCache.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "彭盛凇": "shengsongpeng@huangbaoche.com"
   },
   "source": {
-    "git": "https://github.com/彭盛凇/AliyunLogObjcWithCache.git",
+    "git": "https://github.com/pengshengsongcode/AliyunLogObjcWithCache.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AliyunLogObjcWithCache/Classes/**/*"
+  "source_files": "AliyunLogObjcWithCache/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+      "2.7.5"
+    ]
+  }
 }

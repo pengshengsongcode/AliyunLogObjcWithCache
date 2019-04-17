@@ -38,5 +38,5 @@ TODO: 阿里云日志OC版本，带FMDB存储，断点续传
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'FMDB', '2.7.5'
 end
